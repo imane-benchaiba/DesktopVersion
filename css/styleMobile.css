@@ -1,0 +1,47 @@
+@media (max-width: 576px) {
+  .container_headerListe {
+    margin: 50px 150px 100px 50px;
+  }
+  .liste {
+    visibility: hidden;
+  }
+  .container_headerText {
+    border: solid 2px white;
+    height: 200px;
+    width: 70%;
+    margin-left: 50px;
+  }
+  .headerText {
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    margin: 25px;
+  }
+  .about {
+    display: block;
+  }
+  .container_aboutImg {
+    margin: 50px 50px 0px 50px;
+  }
+  .imageInteractive {
+    width: 90%;
+  }
+  .container_aboutText {
+    margin: 0px;
+    width: 50%;
+    padding: 0px;
+    text-align: center;
+    align-items: center;
+  }
+  .leader {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  .textLeader {
+    font-family: "Josefin Sans", sans-serif;
+    color: black;
+    font-weight: 300;
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-image: url("../img/image-hero.jpg");
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.container_headerListe {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 50px 150px 100px 150px;
+}
+#loopstudios {
+  color: white;
+  font-family: "Alata", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.liste ul {
+  display: flex;
+  list-style: none;
+}
+
+.liste ul li {
+  margin: 10px;
+}
+.liste ul li a {
+  color: white;
+  font-family: "Alata", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none;
+}
+.container_headerText {
+  border: solid 2px white;
+  height: 200px;
+  width: 32%;
+  margin-left: 150px;
+}
+.headerText {
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+  margin: 25px;
+}
+.about {
+  display: flex;
+}
+.container_aboutImg {
+  margin: 100px 150px 100px 150px;
+}
+.imageInteractive {
+  width: 90%;
+}
+.container_aboutText {
+  background-color: white;
+  margin: 300px 0px 0px -350px;
+  width: 27%;
+  padding: 70px;
+}
+.leader {
+  font-family: "Josefin Sans", sans-serif;
+  color: black;
+  font-weight: 300;
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+.textLeader {
+  font-family: "Josefin Sans", sans-serif;
+  color: black;
+  font-weight: 300;
+  font-size: 13px;
+}
+.containerCreations {
+  padding-top: 10px;
+  margin: 50px 150px 150px 150px;
+}
+.creationsHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.creationsTitre {
+  font-family: "Josefin Sans", sans-serif;
+  color: black;
+  font-weight: 300;
+  font-size: 40px;
+}
+#bouton {
+  background-color: white;
+  color: black;
+  border: solid 1px black;
+  width: 100px;
+  height: 30px;
+  font-size: 12px;
+}
+.container_creationsImg {
+  display: grid;
+  grid-template-columns: 25.5% 25.5% 25.5% 25.5%;
+  grid-template-rows: 52.5% 52.5%;
+  justify-self: center;
+  margin-top: 25px;
+}
+.containerImg {
+  position: relative;
+}
+.titreImg {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  color: white;
+
+  position: absolute;
+  top: 85%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
+footer {
+  height: 100px;
+  background-color: black;
+  padding-top: 30px;
+}
+.footerTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px 150px 0px 150px;
+}
+
+.containerIcon {
+  display: flex;
+  flex-direction: row;
+}
+.footerLoopstudios {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: white;
+}
+.icon {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+.footerBottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 150px 0px 150px;
+}
+.footerListe ul {
+  display: flex;
+  list-style: none;
+}
+.footerListe ul li {
+  margin-right: 10px;
+}
+.footerListe ul li a {
+  color: white;
+  font-family: "Alata", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+.footerRights {
+  color: white;
+  font-family: "Alata", sans-serif;
+  font-size: 10px;
+  margin-right: 10px;
+}
